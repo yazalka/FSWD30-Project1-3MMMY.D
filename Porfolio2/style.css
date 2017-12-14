@@ -1,0 +1,162 @@
+* {
+	font-family: Arial;
+}
+
+.all {
+	background-color:#E5EAEE;
+}
+
+body {
+	margin: 0 auto;
+	width: 90%;
+	font-size: 110%;
+	min-width: 400px;
+}
+
+header, main, footer {
+	width: 100%;
+}
+
+header {
+	color: white;
+	background-color: #003680;
+	height: 70px;
+	display: inline-flex;
+	align-items: center;
+}
+
+img[src="images/logo.png"] {
+	padding-left: 5%;
+	padding-right: 20px;
+}
+
+main {
+	color: #3C3C3C;
+	display: flex;
+	flex-flow: column wrap;
+	margin: 30px 0px 80px 0px;
+	width: 100%;
+	align-items: center;
+}
+
+.top-images {
+	display: flex;
+	flex-flow: row wrap;
+	width: 90%;
+	justify-content: space-between;
+}
+
+article.image {
+	width: 45%;
+	flex-flow: column;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image img {
+	width: 100%;
+	justify-content: center;
+}
+
+figcaption {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.caption {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0% 5%;
+}
+
+.top {
+	font-size: 20px;
+}
+
+p {
+	margin: 3px 1px;
+}
+
+.city {
+	color: #078DC6;
+}
+
+#cheaper, #expensive, .city {
+	font-weight: bold;
+}
+
+#text {
+	width: 90%;
+	padding-top: 40px;
+	font-size: 19px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	text-align: center;
+
+}
+
+.button {
+	background-color: #21A6D3;
+	padding: 10px 40px; 
+	width: 100px;
+	border-radius: 15px;
+	font-size: 19px;
+	color: white;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+
+footer {
+	color: white;
+	background-color: #003680;
+	height: 60px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p {
+	margin: 5px;
+}
+
+@media only screen and (max-width: 930px) {
+
+body {
+	font-size: 90%;
+}
+
+@media only screen and (max-width: 750px) {
+body {
+	font-size: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+
+body {
+	width: 100%;
+	font-size: 90%;
+}
+
+.top-images {
+	display: flex;
+	flex-flow: column wrap;
+	width: 100%;
+	align-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+article.image {
+	width: 70%;
+	flex-flow: column;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+
+}

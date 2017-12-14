@@ -1,0 +1,89 @@
+@font-face {
+    font-family: orf;
+    src: url(http://orf.at/fonts/OrfOn-Regular.woff2);
+}
+
+body, header {
+	width: 1000px;
+	margin: 10px auto;
+	font-family: Arial;
+}
+
+header {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+li {
+	text-align: left;
+	display: inline-flex;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+nav {
+	text-align: center;
+}
+
+div.navigation, nav, div.footer	{
+	width: 1000px;
+	margin: 16px 5px;
+}
+
+a[href*="www.apple.com"] {
+	color: blue;
+}
+
+.colums  {
+	background-color: white;
+	font-size: 20px;
+}
+
+#center-colum	{
+	margin: 0% 3.5%;
+}
+
+.navigation {
+	text-align: center;
+	display: inline-flex;
+}
+
+.colum {
+	width: 31%;
+	float: left;
+}
+
+.aline	{
+	padding-top: 30%;
+
+}
+
+#lala {
+	width: 1000px;
+	height: 300px;
+	background-color: #ebebeb;
+	background-image: 	url('https://mockuphone.com/static/images/mup-landing.png'),
+						url('https://images.techhive.com/images/article/2017/04/apple-product-family-stock-2017-100719903-orig.jpg');
+	background-size: 1000px, 900px;
+	background-repeat: no-repeat;
+	background-position: top, center; /*you can choose a position or a size for each of the pictures separationg them with comas*/
+	box-shadow: inset 0 0 10px black;
+}
+
+.legal, .home {
+	padding: 10px;
+	border-right: 1px solid black;
+}
+
+div#footer p {
+	text-align: center;
+}
+
+

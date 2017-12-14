@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300i');
+html , body {
+	margin: 0 100px 0 100px;
+	padding: 0px
+}
+header, footer {
+	background-color: #E05151;
+}
+
+
+.logo , .title  {
+	display: inline-block;
+}
+.logo {
+	margin-top: 10px;
+}
+.title {
+	vertical-align: top;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.title h3 , footer div h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	color: white
+
+}
+.list {
+	background-color: #848484;
+}
+.list ul {
+         list-style-type: none; 
+         margin-top: 2px;
+         padding: 10px 10px 10px 10px;
+}
+.list ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.list ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.images div {
+	width: 45%;
+	display: inline-block; 
+	vertical-align: top;
+
+}
+
+.images div img {
+
+	width: 100%;
+	height: 370px;
+	
+}
+.divl1 , .divl2{
+	float: right;
+	
+}
+.images div h2 {
+	font-family: 'Open Sans', sans-serif;
+
+}
+footer {
+	margin-top: 35px;
+}
+footer div h3 {
+	text-align: center;
+	padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+@media screen and (max-width: 1249px) {
+	.images div {
+		width: 100%;
+	}
+	.divl2 h2 {
+		margin-bottom: 100px;
+	}
+	footer , .divl2 {
+	clear: both;
+}
+}
+@media screen and (max-width: 848px) {
+	html , body {
+		margin: 0px;
+	}
+
+}

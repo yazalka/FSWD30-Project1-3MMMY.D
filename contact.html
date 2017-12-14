@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="landingpage">
+
+	<div id="layer4">
+		<div id="background">
+
+			<header>
+				<div id="logo">
+					<img src="logo3.png" alt="logo">
+				</div>
+
+				<div id="nav">
+						<a href="landingpage.html">Homepage</a>
+						<a href="porfolio.html">Projects</a>
+						<a href="contact.html">Contact Us</a>
+				</div>
+
+			</header>
+
+			<div id="company">
+
+				<h1>Contact Us</h1>
+				<p>
+					LET'S MEET!<br>
+					You can also visit us. Let´s us know what you need!
+				</p>
+
+			</div>
+		</div><!---closing background background-->
+	</div> <!---closing background layer-->
+
+	<div id="maincontact">
+
+		<div id="form">
+
+	     <div>
+	       <label>First Name: </label>
+
+	       <input id="first_name" type="text" name="">
+
+	       <div id="first_name_error"><p style = "color:white">.</p></div>
+
+	     </div>
+
+	     <div>
+
+	       <label>Last Name: </label>
+
+	       <input id="last_name" type="text" name="">
+
+	       <div id="last_name_error"><p style = "color:white">.</p></div>
+
+	     </div>
+
+	     <div>
+	       <label>Email: </label>
+
+	       <input id="email" type="email" name="">
+
+	       <div id="email_error"><p style = "color:white">.</p></div>
+
+	     </div>
+
+	     <dir>
+	       <label>Phone Number: </label>
+
+	       <input id="phone_number" type="text" name="">
+
+	       <div id="phone_number_error"><p style = "color:white">.</p></div>
+
+	     </dir>
+
+	     <div>
+	       <label>Message: </label>
+
+	       <textarea id="message" rows="5"></textarea>
+
+	       <div id="message_error"><p style = "color:white">.</p></div>
+
+	     </div>
+	     <br>
+
+	     <input onclick="submit()" type="submit" value="Send">
+
+	   	<div id="result"><p style = "color:white">.</p></div>
+
+		</div><!---closing form-->
+
+	 	<div id="map"></div>
+
+	</div> <!---closing maincontact-->
+
+
+	<footer>
+
+			<p>Copyright &copy; | Whatever </p>
+
+			<p>Address: Hainburger straße 32/2/23</p>
+
+	</footer>
+
+	<script src="script.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFvUOBZtB41k7_WnQqHLzxci9H8CCU5Bw&callback=googleMap"></script>
+</body>

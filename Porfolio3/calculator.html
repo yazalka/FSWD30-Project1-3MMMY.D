@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+			<a href="index.html"><img id="logo" src="images/logo.png" width="113" height="70"></a>
+			<img id="logo2" src="images/logo2.png"> 
+			<div id="align_nav">	
+				<div id="nav">
+					<a id="News" href="#">News</a>
+					<a id="About us" href="#">About<br>us</a>
+					<a id="Products_and_services" href="#">Products and<br>services</a>
+					<a id="Products and services" href="#">Industry<br>knowledge</a>
+					<a id="Investor relations" href="#">Investor<br>relations</a>
+					<a id="Corporate responsibility" href="#">Corporate<br>responsibility</a>
+					<a id="Careers" href="#">Careers</a>
+				</div>
+			</div>
+	</header>
+	
+	<main>
+		<div id="calculator_form">
+			<form>
+				<h3>Calculator for Car Insurance</h3>
+				
+				<p class="form_text">Name</p>
+				<input id="name" type="text" name="firstname" placeholder="Name">
+
+				<p class="form_text">Age</p> 
+				<input id="age" type="text" name="age" placeholder="Age">
+
+				<p class="form_text">Country</p> 
+				<select id="country" name="country">
+					<option class="country">Select</option>
+					<option class="country" value="Austria">Austria</option>
+					<option class="country" value="Germany">Germany</option>
+					<option class="country" value="Italy">Italy</option>
+				</select> 
+
+				<p class="form_text">Horse Power - HP</p> 
+				<input id="hp" type="number" name="lastname" placeholder="Car HP"> <br> 
+
+				<button type="button" id="resultado" onclick="calculateInsurance()">Calculate</button>
+				<div id="result_div">
+					<p id="result_p"></p>
+				</div>
+
+			</form>
+		</div>
+	</main>
+
+	<footer>
+		<p>Copyright &copy; 2017. All rights reserved.</p>
+	</footer>
+</body>
+
+</html>
